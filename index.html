@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tanah strategis 250 m² di Jl. Dwikora Gang 15, Kuripan Yosorejo, Kota Pekalongan. SHM, akses mobil, sekitar 5 menit dari Exit Tol Kota Pekalongan.">
+  <meta name="theme-color" content="#0d6b45">
+  <title>Tanah Strategis 250 m² | Doku Propertindo.id</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --green:#0b6b45;
+      --green-dark:#064b32;
+      --green-soft:#eaf7f0;
+      --gold:#e7b84b;
+      --ink:#10231b;
+      --muted:#64736c;
+      --cream:#fbfaf6;
+      --white:#fff;
+      --line:#e5ebe7;
+      --shadow:0 18px 50px rgba(16,35,27,.10);
+      --radius:26px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:var(--cream);
+      font-family:"DM Sans",system-ui,sans-serif;
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{width:min(1160px,92%);margin:auto}
+    .topbar{
+      background:#062e21;color:#eaf7f0;font-size:13px;
+      padding:9px 0;
+    }
+    .topbar .container{display:flex;justify-content:space-between;gap:20px}
+    .nav{
+      position:sticky;top:0;z-index:50;
+      background:rgba(251,250,246,.90);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(229,235,231,.8);
+    }
+    .nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800}
+    .brand-mark{
+      width:43px;height:43px;border-radius:14px;
+      display:grid;place-items:center;
+      background:linear-gradient(145deg,var(--green),#0b8b59);
+      color:#fff;box-shadow:0 8px 20px rgba(11,107,69,.20);
+    }
+    .brand-mark svg{width:25px}
+    .brand-name{font-family:Manrope;font-size:17px;line-height:1.05}
+    .brand-name span{display:block;color:var(--green);font-size:11px;letter-spacing:.08em;margin-top:4px}
+    .nav-links{display:flex;gap:24px;font-size:14px;font-weight:700;color:#3f4d47}
+    .nav-links a:hover{color:var(--green)}
+    .nav-cta{
+      padding:11px 17px;border-radius:999px;background:var(--green);color:#fff;font-weight:800;font-size:14px;
+      box-shadow:0 8px 18px rgba(11,107,69,.18);
+    }
+    .hero{padding:46px 0 30px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:34px;align-items:center}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border-radius:999px;
+      background:var(--green-soft);color:var(--green);font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;
+    }
+    .dot{width:7px;height:7px;border-radius:50%;background:#20a66a}
+    h1{
+      font-family:Manrope,sans-serif;font-size:clamp(40px,5.4vw,70px);
+      line-height:1.03;letter-spacing:-.055em;margin:18px 0 18px;
+    }
+    h1 em{font-style:normal;color:var(--green)}
+    .lead{font-size:18px;color:var(--muted);max-width:650px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:27px 0}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:9px;
+      padding:14px 19px;border-radius:14px;font-weight:800;border:1px solid transparent;
+      transition:.25s ease;cursor:pointer;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--green);color:#fff;box-shadow:0 14px 28px rgba(11,107,69,.20)}
+    .btn-secondary{background:#fff;border-color:var(--line)}
+    .microproof{display:flex;flex-wrap:wrap;gap:18px;color:#68766f;font-size:13px}
+    .microproof strong{color:var(--ink)}
+    .hero-visual{position:relative}
+    .photo-card{
+      background:#fff;border-radius:30px;padding:10px;box-shadow:var(--shadow);transform:rotate(1.1deg);
+    }
+    .photo-card img{height:510px;width:100%;object-fit:cover;border-radius:23px}
+    .floating{
+      position:absolute;left:-18px;bottom:28px;background:#fff;border:1px solid var(--line);
+      border-radius:18px;padding:14px 16px;box-shadow:var(--shadow);max-width:260px;
+    }
+    .floating b{display:block;font-family:Manrope;font-size:15px}
+    .floating span{font-size:12px;color:var(--muted)}
+    .promo-ribbon{
+      position:absolute;right:-15px;top:22px;background:#b9251c;color:#fff;
+      padding:10px 15px;border-radius:12px;font-size:12px;font-weight:900;
+      box-shadow:0 12px 24px rgba(185,37,28,.20);transform:rotate(3deg);
+    }
+
+    section{padding:82px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}
+    .kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--green);font-weight:900}
+    h2{font-family:Manrope;font-size:clamp(30px,4vw,46px);line-height:1.08;letter-spacing:-.045em;margin:7px 0}
+    .section-head p{max-width:520px;color:var(--muted);margin:0}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .stat{
+      background:#fff;border:1px solid var(--line);border-radius:22px;padding:23px;
+      box-shadow:0 10px 30px rgba(16,35,27,.045)
+    }
+    .stat .num{font-family:Manrope;font-size:29px;color:var(--green);font-weight:800}
+    .stat p{margin:3px 0 0;color:var(--muted);font-size:13px}
+    .details{background:#f0f8f3}
+    .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .detail-card{
+      background:#fff;border-radius:24px;border:1px solid var(--line);padding:27px;box-shadow:0 10px 35px rgba(16,35,27,.05)
+    }
+    .detail-card h3{font-family:Manrope;margin:0 0 17px;font-size:20px}
+    .check-list{display:grid;gap:12px;padding:0;margin:0;list-style:none}
+    .check-list li{display:flex;gap:11px;align-items:flex-start;color:#3d4c45}
+    .check{
+      flex:0 0 23px;width:23px;height:23px;border-radius:50%;background:var(--green);
+      color:#fff;display:grid;place-items:center;font-size:13px;font-weight:900;margin-top:1px
+    }
+    .map-box{
+      min-height:100%;border-radius:24px;overflow:hidden;position:relative;
+      background:
+        radial-gradient(circle at 20% 20%,rgba(255,255,255,.9),transparent 25%),
+        linear-gradient(135deg,#d9eadc,#edf3e9 50%,#d2e5d5);
+      border:1px solid var(--line);
+    }
+    .map-grid{
+      position:absolute;inset:0;opacity:.35;
+      background-image:linear-gradient(90deg,rgba(11,107,69,.18) 1px,transparent 1px),
+                       linear-gradient(rgba(11,107,69,.18) 1px,transparent 1px);
+      background-size:52px 52px;transform:rotate(-8deg) scale(1.15)
+    }
+    .map-pin{position:absolute;inset:0;display:grid;place-items:center}
+    .pin{
+      width:62px;height:62px;border-radius:50% 50% 50% 8px;background:var(--green);transform:rotate(-45deg);
+      box-shadow:0 15px 30px rgba(11,107,69,.25);display:grid;place-items:center
+    }
+    .pin span{transform:rotate(45deg);color:#fff;font-weight:900}
+    .map-label{
+      position:absolute;left:20px;bottom:20px;right:20px;background:rgba(255,255,255,.92);
+      padding:15px 17px;border-radius:16px;backdrop-filter:blur(8px)
+    }
+    .map-label b{font-family:Manrope;display:block}
+    .map-label small{color:var(--muted)}
+    .gallery-grid{display:grid;grid-template-columns:1.45fr .55fr;gap:14px}
+    .gallery-main,.gallery-side{display:grid;gap:14px}
+    .gallery-item{position:relative;overflow:hidden;border-radius:22px;background:#ddd;min-height:190px}
+    .gallery-main .gallery-item{min-height:510px}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+    .gallery-item:hover img{transform:scale(1.04)}
+    .gallery-caption{
+      position:absolute;left:15px;right:15px;bottom:15px;background:rgba(0,0,0,.55);color:#fff;
+      padding:9px 12px;border-radius:12px;font-size:12px;backdrop-filter:blur(8px)
+    }
+    .promo-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:28px;align-items:center}
+    .promo-copy{
+      background:#062e21;color:#fff;border-radius:30px;padding:35px;position:relative;overflow:hidden;
+    }
+    .promo-copy:after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;right:-90px;bottom:-100px;background:rgba(231,184,75,.16)}
+    .promo-copy .kicker{color:#9fe0bf}
+    .promo-copy h2{color:#fff}
+    .promo-copy p{color:#c4d5cd}
+    .promo-list{list-style:none;padding:0;margin:24px 0;display:grid;gap:10px}
+    .promo-list li{display:flex;gap:9px}
+    .promo-image{background:#fff;padding:10px;border-radius:30px;box-shadow:var(--shadow)}
+    .promo-image img{width:100%;max-height:720px;object-fit:contain;border-radius:21px}
+    .story{background:linear-gradient(135deg,#fff,#edf8f1)}
+    .story-card{max-width:900px;margin:auto;text-align:center}
+    .quote{
+      font-family:Manrope;font-size:clamp(25px,4vw,43px);line-height:1.2;letter-spacing:-.04em;margin:18px 0;
+    }
+    .quote span{color:var(--green)}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:22px;padding:25px}
+    .step-no{font-family:Manrope;color:var(--gold);font-size:30px;font-weight:800}
+    .step h3{font-family:Manrope;margin:8px 0 7px}
+    .step p{color:var(--muted);font-size:14px;margin:0}
+    .faq{max-width:850px;margin:auto}
+    details{background:#fff;border:1px solid var(--line);border-radius:17px;margin:10px 0;padding:17px 19px}
+    summary{font-weight:800;cursor:pointer}
+    details p{color:var(--muted);margin:12px 0 2px}
+    .final-cta{
+      padding:90px 0;background:#062e21;color:#fff;text-align:center;
+    }
+    .final-cta h2{max-width:780px;margin:8px auto 13px}
+    .final-cta p{color:#c4d5cd;max-width:650px;margin:0 auto 26px}
+    .footer{background:#041e16;color:#a9beb4;padding:28px 0;font-size:13px}
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .wa-float{
+      position:fixed;right:20px;bottom:20px;z-index:60;
+      display:flex;align-items:center;gap:9px;padding:14px 18px;border-radius:999px;
+      background:#25d366;color:#fff;font-weight:900;box-shadow:0 15px 35px rgba(0,0,0,.18)
+    }
+    .wa-float svg{width:20px}
+    .reveal{opacity:0;transform:translateY(18px);transition:.7s ease}
+    .reveal.show{opacity:1;transform:none}
+    @media(max-width:900px){
+      .nav-links{display:none}
+      .hero-grid,.detail-grid,.promo-grid,.gallery-grid{grid-template-columns:1fr}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      .process{grid-template-columns:1fr}
+      .hero{padding-top:30px}
+      .photo-card img{height:420px}
+      .gallery-main .gallery-item{min-height:390px}
+      .gallery-side{grid-template-columns:1fr 1fr}
+      .section-head{display:block}
+      .section-head p{margin-top:12px}
+    }
+    @media(max-width:560px){
+      .topbar .container{justify-content:center;text-align:center}
+      .topbar .container span:last-child{display:none}
+      .nav-inner{height:68px}
+      .nav-cta{padding:10px 13px;font-size:12px}
+      h1{font-size:42px}
+      .lead{font-size:16px}
+      .stats{grid-template-columns:1fr 1fr}
+      .stat{padding:18px}
+      .stat .num{font-size:24px}
+      section{padding:62px 0}
+      .floating{left:10px;bottom:15px}
+      .promo-ribbon{right:5px}
+      .gallery-side{grid-template-columns:1fr}
+      .wa-float{right:12px;bottom:12px}
+      .wa-float span{display:none}
+      .footer-inner{display:block;text-align:center}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>Properti pilihan • Kuripan Yosorejo • Kota Pekalongan</span>
+      <span>Respons cepat via WhatsApp</span>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Doku Propertindo.id">
+        <div class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 11.2 12 4l9 7.2"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M9 20v-5h6v5"/>
+          </svg>
+        </div>
+        <div class="brand-name">DOKUPROPERTINDO.ID<span>PROPERTY • MARKETING • CONSULTING</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="#detail">Detail</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#lokasi">Lokasi</a>
+        <a href="#promo">Promo</a>
+      </div>
+      <a class="nav-cta" href="https://wa.me/628156743843?text=Assalamu'alaikum%20Doku%20Propertindo%2C%20saya%20tertarik%20dengan%20tanah%20250%20m%C2%B2%20di%20Jl.%20Dwikora%20Gang%2015." target="_blank">Chat WhatsApp</a>
+    </div>
+  </nav>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span class="dot"></span> Tanah strategis • Siap dipertimbangkan</div>
+          <h1>Bangun rumah impian di <em>lokasi yang dekat.</em></h1>
+          <p class="lead">
+            Lahan 250 m² berbentuk 10 × 25 meter di Jl. Dwikora Gang 15,
+            Kelurahan Kuripan Yosorejo, Kota Pekalongan. Lingkungan dalam kampung,
+            akses mobil, dan sekitar <strong>5 menit dari Exit Tol Kota Pekalongan.</strong>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/628156743843?text=Assalamu'alaikum%20Doku%20Propertindo%2C%20saya%20ingin%20survey%20tanah%20250%20m%C2%B2%20di%20Kuripan%20Yosorejo." target="_blank">
+              <span>Jadwalkan Survey</span> ↗
+            </a>
+            <a class="btn btn-secondary" href="#galeri">Lihat Foto Tanah</a>
+          </div>
+          <div class="microproof">
+            <span>✓ <strong>SHM</strong></span>
+            <span>✓ <strong>250 m²</strong></span>
+            <span>✓ <strong>Akses mobil</strong></span>
+            <span>✓ <strong>±5 menit Exit Tol</strong></span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+         
+          <div class="photo-card">
+            <img src="tanah-utama.png" alt="Foto lahan yang ditawarkan di Kuripan Yosorejo">
+          </div>
+          <div class="floating">
+            <b>10 × 25 meter • 250 m²</b>
+            <span>Jl. Dwikora Gang 15, Kuripan Yosorejo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat"><div class="num">250 m²</div><p>Luas tanah</p></div>
+          <div class="stat"><div class="num">10 × 25 m</div><p>Dimensi lahan</p></div>
+          <div class="stat"><div class="num">±5 menit</div><p>Ke Exit Tol Kota Pekalongan</p></div>
+          <div class="stat"><div class="num">SHM</div><p>Legalitas sesuai informasi pemilik</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details" id="detail">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Property snapshot</div>
+            <h2>Informasi penting dalam sekali lihat.</h2>
+          </div>
+       </div>
+
+        <div class="detail-grid">
+          <div class="detail-card reveal">
+            <h3>Kenapa lahan ini menarik?</h3>
+            <ul class="check-list">
+              <li><span class="check">✓</span><span><strong>Lokasi strategis</strong> di Jl. Dwikora Gang 15, Kuripan Yosorejo, Kota Pekalongan.</span></li>
+              <li><span class="check">✓</span><span><strong>Akses mobil bisa masuk</strong> sehingga lebih fleksibel untuk rumah tinggal dan aktivitas keluarga.</span></li>
+              <li><span class="check">✓</span><span><strong>Dekat Exit Tol Kota Pekalongan</strong> dengan estimasi sekitar 5 menit.</span></li>
+              <li><span class="check">✓</span><span><strong>Lingkungan dalam kampung</strong> dengan suasana yang lebih tenang dan nyaman.</span></li>
+              <li><span class="check">✓</span><span><strong>SHM</strong> — detail dokumen dapat dikonfirmasi saat proses transaksi.</span></li>
+            </ul>
+          </div>
+
+          <div class="detail-card reveal" id="lokasi">
+            <h3>Alamat & akses</h3>
+            <div class="map-box">
+              <div class="map-grid"></div>
+              <div class="map-pin"><div class="pin"><span>⌂</span></div></div>
+              <div class="map-label">
+                <b>Jl. Dwikora Gang 15</b>
+                <small>Kel. Kuripan Yosorejo, Kota Pekalongan</small>
+              </div>
+            </div>
+            <div style="margin-top:14px">
+              <a class="btn btn-secondary" style="width:100%" href="https://www.google.com/maps/search/?api=1&query=Jl.%20Dwikora%20Gang%2015%2C%20Kuripan%20Yosorejo%2C%20Kota%20Pekalongan" target="_blank">Buka lokasi di Google Maps ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Visual property</div>
+            <h2>Lihat kondisi lahannya.</h2>
+          </div>
+          
+        <div class="gallery-grid reveal">
+          <div class="gallery-main">
+            <div class="gallery-item">
+              <img src="tanah-utama.png" alt="Tampak lahan dan bangunan kayu di lokasi">
+              <div class="gallery-caption">Tampak area lahan • foto aktual</div>
+            </div>
+          </div>
+          <div class="gallery-side">
+            <div class="gallery-item">
+              <img src="image_36.png" alt="Tampak Depan Lokasi">
+              <div class="gallery-caption">Tampak Depan Lokasi</div>
+            </div>
+            <div class="gallery-item" style="background:linear-gradient(135deg,#0b6b45,#0a4c35);color:#fff;display:grid;place-items:center;padding:30px;text-align:center">
+              <div>
+                <div class="kicker" style="color:#a9e4c5">Doku Propertindo.id</div>
+                <h3 style="font-family:Manrope;font-size:27px;margin:9px 0">Lokasi bagus.<br>Rencana hidup lebih dekat.</h3>
+                <p style="color:#d2e4db;font-size:13px;margin:0">Jadwalkan survey dan lihat langsung potensi lahannya.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="promo" class="details">
+      <div class="container promo-grid">
+        <div class="promo-copy reveal">
+          <div class="kicker">Special offer</div>
+          <h2>Promo bulan ini untuk akad di bulan ini.</h2>
+          <p>Materi promo mengikuti flyer yang Anda berikan. Untuk ketentuan dan ketersediaan hadiah, konfirmasi langsung kepada tim pemasaran.</p>
+          <ul class="promo-list">
+            <li>🎁 <strong>Free laptop</strong> — sesuai ketentuan promo</li>
+            <li>📍 Lokasi dalam perkampungan</li>
+            <li>🚗 Akses mobil bisa masuk</li>
+            <li>📄 SHM</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/628156743843?text=Halo%20Doku%20Propertindo%2C%20saya%20ingin%20tanya%20detail%20promo%20free%20laptop%20untuk%20tanah%20250%20m%C2%B2." target="_blank">Tanya Detail Promo</a>
+        </div>
+        <div class="promo-image reveal">
+          <img src="flyer-promo.png" alt="Flyer promo tanah strategis Doku Propertindo">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="container story-card reveal">
+        <div class="kicker">Future pacing</div>
+        <div class="quote">
+          “Bayangkan suatu hari nanti Anda pulang ke <span>rumah sendiri</span> —
+          anak-anak bermain di halaman, keluarga berkumpul, dan semua bermula dari
+          tanah yang Anda miliki hari ini.”
+        </div>
+        <p style="color:var(--muted);max-width:650px;margin:auto">
+          Lahan 250 m² memberi ruang yang cukup untuk merencanakan rumah keluarga,
+          halaman, carport, atau pengembangan sesuai kebutuhan Anda.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Simple next step</div>
+            <h2>Mulai dari survey. Putuskan setelah melihat langsung.</h2>
+          </div>
+          <p>Tidak perlu terburu-buru. Datang, lihat aksesnya, cek lingkungan, lalu diskusikan kebutuhan Anda.</p>
+        </div>
+        <div class="process">
+          <div class="step reveal"><div class="step-no">01</div><h3>Hubungi kami</h3><p>Kirim pesan WhatsApp untuk mendapatkan informasi dan waktu survey.</p></div>
+          <div class="step reveal"><div class="step-no">02</div><h3>Survey lokasi</h3><p>Lihat kondisi lahan, akses mobil, lingkungan dan posisi tanah secara langsung.</p></div>
+          <div class="step reveal"><div class="step-no">03</div><h3>Diskusi & negosiasi</h3><p>Jika cocok, lanjutkan pembahasan harga dan proses transaksi dengan pihak terkait.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container faq">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">FAQ</div>
+            <h2>Pertanyaan yang sering muncul.</h2>
+          </div>
+        </div>
+        <details class="reveal"><summary>Berapa luas dan ukuran tanah?</summary><p>Luas 250 m² dengan ukuran 10 × 25 meter.</p></details>
+        <details class="reveal"><summary>Di mana lokasi tanahnya?</summary><p>Jl. Dwikora Gang 15, Kelurahan Kuripan Yosorejo, Kota Pekalongan.</p></details>
+        <details class="reveal"><summary>Apakah mobil bisa masuk?</summary><p>Ya, informasi pemasaran menyebut akses jalan mobil bisa masuk. Sebaiknya cek langsung saat survey untuk menilai kecocokan kendaraan dan kebutuhan Anda.</p></details>
+        <details class="reveal"><summary>Bagaimana legalitasnya?</summary><p>Tanah diinformasikan berstatus SHM. Dokumen dan status terkini sebaiknya diperiksa bersama pihak terkait sebelum transaksi.</p></details>
+        <details class="reveal"><summary>Bagaimana mendapatkan harga terbaik?</summary><p>Hubungi tim untuk informasi harga terbaru dan ketentuan promo yang sedang berlaku.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <div class="kicker" style="color:#a9e4c5">Doku Propertindo.id</div>
+        <h2>Kalau lokasinya terasa cocok, jangan hanya lihat dari layar.</h2>
+        <p>Jadwalkan survey ke Jl. Dwikora Gang 15, Kuripan Yosorejo, Kota Pekalongan.</p>
+        <div class="hero-actions" style="justify-content:center">
+          <a class="btn btn-primary" href="https://wa.me/628156743843?text=Halo%20Doku%20Propertindo%2C%20saya%20ingin%20jadwalkan%20survey%20tanah%20250%20m%C2%B2." target="_blank">WhatsApp 0815-6743-843 ↗</a>
+          <a class="btn btn-secondary" style="background:#fff" href="tel:+6287722826864">Telepon 0877-2282-6864</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong style="color:#fff">dokupropertindo.id</strong> • Property Marketing & Consulting</div>
+      <div>© 2026 • Dari Rumah Tumbuh Keluarga Berkah</div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/628156743843?text=Assalamu'alaikum%20Doku%20Propertindo%2C%20saya%20tertarik%20dengan%20tanah%20250%20m%C2%B2%20di%20Kuripan%20Yosorejo." target="_blank" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.7 11.7 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.2 1.7 6L.2 24l6.4-1.7a11.8 11.8 0 0 0 5.5 1.4h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.2-3.5-8.4ZM12.2 21.7h-.1a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.7 9.7 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.9-9.8 2.6 0 5.1 1 6.9 2.9 1.8 1.9 2.9 4.3 2.9 6.9-.1 5.5-4.5 9.9-9.9 9.9Zm5.4-7.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.6-.8-2.6-1.4-3.6-3.1-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.6-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7 0 1.6 1.1 3.1 1.3 3.3.2.2 2.2 3.4 5.3 4.7 2 .9 2.8 1 3.8.9.6-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.1-1.3-.1-.1-.3-.2-.6-.4Z"/></svg>
+    <span>Chat WhatsApp</span>
+  </a>
+
+  <script>
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting) entry.target.classList.add('show');
+      });
+    },{threshold:.08});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  </script>
+</body>
+</html>
